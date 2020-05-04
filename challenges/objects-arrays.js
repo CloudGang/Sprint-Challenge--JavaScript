@@ -73,7 +73,10 @@ const graduates = [
 
 Once you have the new array created, log the result. */
 const universities = [];
-console.log(universities);
+graduates.map((uni) => {
+  universities.push(uni.university)
+})
+console.log('Request 1: ' + universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
