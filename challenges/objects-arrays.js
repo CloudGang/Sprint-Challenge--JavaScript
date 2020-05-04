@@ -170,3 +170,11 @@ const populationTotal = zooAnimals.reduce(function(accumulator, animal){
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+const universities2 = graduates.map((uni) => uni.university);
+console.log('ArrowFunc 1: ' + universities2);
+
+const contactInfo2 = graduates.map((graduate) => `${graduate.first_name} ${graduate.email}`);
+console.log('ArrowFunc 2: ' + contactInfo2);
+
+const populationTotal2 = zooAnimals.reduce((accumulator, animal) => accumulator + animal.population, 0);
+console.log('ArrowFunc 3: ' + populationTotal2); 
