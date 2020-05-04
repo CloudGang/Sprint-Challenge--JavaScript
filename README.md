@@ -29,14 +29,36 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+> .map returns a new array of elements while looping through the original array
+> .forEach does not return a new array and the return of a keyword is optional.
+
 
 2. What is the difference between a function and a method?
+> A method is a built in function used within an object
+> 'A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. 
+> aka A function is a piece of reusable code.
 
 3. What is closure?
+> Closure: A function and its lexical environment (the variables that it uses).
+> To use a closure:
+> 1. Write a function that returns a 2nd function.
+> 2. Invoke the 1st function to return the 2nd function, and store that in a new variable.
+> 3. Now invoke that new variable to invoke the 2nd function.
 
 4. Describe the four rules of the 'this' keyword.
+> 'this' bindings
+> 1. Window/Global - 'this' is placed globally
+> 2. Implicit - 'this' in methods in objects
+> 3. New - 'new' followed by a Contructor invocation to create an Object
+> 4. Explicit - call/apply/bind methods to point `this` to a specific Object
+> A constructor is a function that makes objects
+> this refers to the object it will be inside of.
 
 5. Why do we need super() in an extended class?
+> We need super() in an extended class because The super keyword is used to access 
+> and call functions on an object's parent.The super keyword refers to the parent class. 
+> It is used to call the constructor of the parent class and to access the parent's properties and methods
+> that the child will inherit if they are passed to it.
 
 ## Project Set up
 
